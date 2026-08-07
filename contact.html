@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Contact — Wickr Group a.s.</title>
+<meta name="description" content="Contact Wickr Group a.s. — a diversified Czech family group based in Prague." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&family=Inter:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container container--wide nav">
+    <a class="brand" href="index.html">
+      <img src="assets/img/WGlogo-final.png" alt="Wickr Group a.s." />
+      <span class="brand-text">Wickr Group<span>Because Success Matters</span></span>
+    </a>
+    <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+    <ul class="nav-links">
+      <li><a href="index.html#real-estate">Real Estate</a></li>
+      <li><a href="index.html#technology">Technology</a></li>
+      <li><a href="index.html#sport">Sport</a></li>
+      <li><a href="index.html#retail">Retail</a></li>
+      <li class="nav-sep" aria-hidden="true"></li>
+      <li><a href="partnership.html">Partners</a></li>
+      <li><a href="references.html">References</a></li>
+      <li class="nav-cta"><a class="btn btn--line active" href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</header>
+
+<section class="page-banner">
+  <div class="container container--wide">
+    <span class="label" style="color:var(--mute-d)">Get in touch</span>
+    <h1>Contact</h1>
+    <p>Feel free to contact us if you have any questions — we'd love to hear about your project.</p>
+    <div class="breadcrumb"><a href="index.html">Home</a> &nbsp;/&nbsp; Contact</div>
+  </div>
+</section>
+
+<section class="chapter chapter--light" data-nav-theme="light" style="padding-top:clamp(50px,7vw,90px);">
+  <div class="container container--wide">
+    <div class="chapter__head">
+      <span class="chapter__index reveal">Company details <span class="rule"></span></span>
+      <h2 class="chapter__title reveal-line" style="font-size:clamp(2rem,5.5vw,4.4rem);"><span>Wickr Group, a.s.</span></h2>
+      <p class="chapter__lead reveal">Wickr Group a.s. is a joint-stock company incorporated on October 31, 2006, under the laws of the Czech Republic. Its registration is filed with the Commercial Register administered by the City Court of Prague, file B 11238, under company identification number IČ: 27618277.</p>
+    </div>
+
+    <div class="contact-grid" id="form">
+      <!-- Info -->
+      <div class="reveal">
+        <div class="info-list">
+          <div class="info-row"><span class="label label--plain">Phone</span><span class="value"><a href="tel:+420774317009">+420 774 317 009</a></span></div>
+          <div class="info-row"><span class="label label--plain">Email</span><span class="value"><a href="mailto:office@wickr-group.com">office@wickr-group.com</a></span></div>
+          <div class="info-row"><span class="label label--plain">Address</span><span class="value">Jemnická 5/345, 140 00 Prague, Czech Republic</span></div>
+          <div class="info-row"><span class="label label--plain">Registration</span><span class="value" style="font-size:1rem;">IČ: 27618277 · City Court of Prague, file B 11238</span></div>
+        </div>
+        <div class="map-wrap">
+          <iframe title="Map" loading="lazy" src="https://www.openstreetmap.org/export/embed.html?bbox=14.45%2C50.04%2C14.52%2C50.07&amp;layer=mapnik&amp;marker=50.055%2C14.485"></iframe>
+        </div>
+      </div>
+
+      <!-- Form -->
+      <div class="reveal">
+        <form class="form" id="contactForm" action="send.php" method="post">
+          <h3>Contact us</h3>
+          <p style="color:var(--mute);margin-bottom:26px;">Feel free to contact us if you have any questions.</p>
+          <div class="form-row">
+            <div class="field">
+              <label>Name <span class="req">*</span></label>
+              <input type="text" name="name" placeholder="Your name" required />
+            </div>
+            <div class="field">
+              <label>Email <span class="req">*</span></label>
+              <input type="email" name="email" placeholder="you@example.com" required />
+            </div>
+          </div>
+          <div class="field">
+            <label>Phone</label>
+            <input type="tel" name="phone" placeholder="+420 …" />
+          </div>
+          <div class="field">
+            <label>Message <span class="req">*</span></label>
+            <textarea name="message" placeholder="Write your message…" required></textarea>
+          </div>
+          <div class="field">
+            <label class="checkbox"><input type="checkbox" name="gdpr" required /> I agree to the processing of personal data according to the GDPR.</label>
+          </div>
+          <!-- anti-spam honeypot: leave empty -->
+          <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px;" aria-hidden="true" />
+          <button class="btn btn--solid" type="submit">Send message <span class="arrow">→</span></button>
+          <p id="formNote" style="display:none;color:var(--ink);margin-top:18px;font-weight:600;">Thank you — your message has been sent. We'll be in touch shortly.</p>
+          <p id="formError" style="display:none;color:#a23b3b;margin-top:18px;font-weight:600;">Sorry, something went wrong. Please email us directly at office@wickr-group.com.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container container--wide">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">Wickr Group a.s.<span>Because Success Matters</span></div>
+        <p>A joint-stock company incorporated on October 31, 2006, under the laws of the Czech Republic — building businesses across industries and generations.</p>
+      </div>
+      <div>
+        <h4>Verticals</h4>
+        <ul>
+          <li><a href="index.html#real-estate">Real Estate</a></li>
+          <li><a href="index.html#technology">Technology</a></li>
+          <li><a href="index.html#sport">Sport &amp; Infrastructure</a></li>
+          <li><a href="index.html#retail">Retail &amp; Consumer Brands</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Wickr Group, a.s.</h4>
+        <div class="foot-contact"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg><a href="tel:+420774317009">+420 774 317 009</a></div>
+        <div class="foot-contact"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 5L2 7"/></svg><a href="mailto:office@wickr-group.com">office@wickr-group.com</a></div>
+        <div class="foot-contact"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><span>Jemnická 5/345, 140 00 Prague, Czech Republic</span></div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2006–2026 Wickr Group a.s.</span>
+      <span><a href="contact.html">Contact</a> · <a href="#gdpr">GDPR</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/main.js"></script>
+</body>
+</html>
