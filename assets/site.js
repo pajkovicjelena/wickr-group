@@ -15,7 +15,7 @@
   var panels = Array.prototype.slice.call(document.querySelectorAll('.panel'));
   var shell = document.getElementById('shell');
   var active = 0, timer;
-  var keys = ['real-estate', 'technology', 'sport', 'retail'];
+  var keys = ['technology', 'real-estate', 'retail', 'sport'];
 
   function show(i, push) {
     if (i === active || i < 0 || i > 3) return;

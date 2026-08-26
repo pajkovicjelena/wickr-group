@@ -19,13 +19,12 @@
     </a>
     <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
     <ul class="nav-links">
-      <li><a href="index.html#real-estate">Real Estate</a></li>
       <li><a href="index.html#technology">Technology</a></li>
-      <li><a href="index.html#sport">Sport</a></li>
+      <li><a href="index.html#real-estate">Real Estate</a></li>
       <li><a href="index.html#retail">Retail</a></li>
+      <li><a href="index.html#sport">Sport</a></li>
       <li class="nav-sep" aria-hidden="true"></li>
       <li><a href="partnership.html">Partners</a></li>
-      <li><a href="references.html">References</a></li>
       <li class="nav-cta"><a class="btn btn--line" href="contact.html">Contact</a></li>
     </ul>
   </div>
@@ -41,20 +40,40 @@
   <div class="hero__meta"><span>Prague · Czech Republic</span><span>Est. 2006</span><span>Four verticals</span></div>
 
   <div class="tabs" role="tablist" aria-label="Business verticals">
-    <button class="tab" role="tab" aria-selected="true" aria-controls="p0" data-i="0"><span class="n">01</span><span class="t">Real Estate</span><span class="v">Viewing →</span></button>
-    <button class="tab" role="tab" aria-selected="false" aria-controls="p1" data-i="1"><span class="n">02</span><span class="t">Technology</span><span class="v">Viewing →</span></button>
-    <button class="tab" role="tab" aria-selected="false" aria-controls="p2" data-i="2"><span class="n">03</span><span class="t">Sport &amp; <br />Infrastructure</span><span class="v">Viewing →</span></button>
-    <button class="tab" role="tab" aria-selected="false" aria-controls="p3" data-i="3"><span class="n">04</span><span class="t">Retail &amp; <br />Consumer Brands</span><span class="v">Viewing →</span></button>
+    <button class="tab" role="tab" aria-selected="true" aria-controls="p0" data-i="0"><span class="n">01</span><span class="t">Technology</span><span class="v">Viewing →</span></button>
+    <button class="tab" role="tab" aria-selected="false" aria-controls="p1" data-i="1"><span class="n">02</span><span class="t">Real Estate</span><span class="v">Viewing →</span></button>
+    <button class="tab" role="tab" aria-selected="false" aria-controls="p2" data-i="2"><span class="n">03</span><span class="t">Retail &amp; <br />Consumer Brands</span><span class="v">Viewing →</span></button>
+    <button class="tab" role="tab" aria-selected="false" aria-controls="p3" data-i="3"><span class="n">04</span><span class="t">Sport &amp; <br />Infrastructure</span><span class="v">Viewing →</span></button>
   </div>
 </section>
 
 <main class="wrap panels">
   <div class="panel-shell" id="shell">
 
-    <section class="panel" id="p0" role="tabpanel" aria-label="Real Estate">
-      <div class="two">
+    <section class="panel" id="p0" role="tabpanel" aria-label="Technology">
+      <div class="two two--img">
+        <img class="cover" src="assets/img/tech2.jpg" alt="Fluids conversion technology" />
         <div>
           <span class="lbl">01 / Business Vertical</span>
+          <h2>Technology</h2>
+          <p class="lead">Unique and innovative fluids conversion through GENETT technology.</p>
+          <p class="body-t" style="margin-bottom:22px">GENETT technology enables the following unique and innovative fluid-conversion opportunities:</p>
+          <div class="rows">
+            <div class="row"><span class="i">01</span>Direct conversion of natural and petroleum gases into automotive fuel</div>
+            <div class="row"><span class="i">02</span>Processing of various hydrocarbon and non-hydrocarbon raw materials</div>
+            <div class="row"><span class="i">03</span>Synthesis of hydrocarbons within a technical system, as occurs in the Earth's interior</div>
+            <div class="row"><span class="i">04</span>Processing CO₂ extracted from fuel-combustion gases into alternative fuels</div>
+            <div class="row"><span class="i">05</span>Processing organic oxygen-containing raw materials — vegetable oils, UCO, alcohols — into automotive fuels</div>
+          </div>
+          <div class="partner__links"><a class="btn btn--line" href="partnership.html">Technology partner: Dereroy &amp; Co. →</a></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel" id="p1" role="tabpanel" aria-label="Real Estate" hidden>
+      <div class="two">
+        <div>
+          <span class="lbl">02 / Business Vertical</span>
           <h2>Real Estate</h2>
           <p class="lead">Development, renovation and delivery of residential and commercial property — converting ideas from paper into real property.</p>
           <p class="body-t">Between 2000 and 2020, Wickr Group a.s. ran construction operations and successfully built and reconstructed numerous properties across Prague.</p>
@@ -63,15 +82,14 @@
             <div><div class="num">300<span>+</span></div><span class="lbl">Homes delivered</span></div>
             <div><div class="num">20<span>+</span></div><span class="lbl">Years of operation</span></div>
           </div>
-          <div class="partner__links"><a class="btn btn--line" href="references.html">See references →</a></div>
         </div>
-        <img class="cover" src="assets/img/prague.jpg" alt="Prague real estate" />
+        <img class="cover" src="assets/img/prague-sunset.jpg" alt="Prague skyline at sunset — Charles Bridge and Malá Strana" />
       </div>
 
       <img class="krk" src="assets/img/krk-cizici.png" alt="Čižići, Island of Krk" />
       <div class="tight" style="margin-top:2px">
         <div class="pane-clay">
-          <span class="lbl">01.1 / Ongoing residential project</span>
+          <span class="lbl">02.1 / Ongoing residential project</span>
           <h3>Island of Krk — Čižići, Croatia</h3>
           <ul class="f-list" style="margin-top:26px">
             <li>Located on the north-east of Krk, Croatia's biggest island</li>
@@ -92,66 +110,19 @@
       </div>
     </section>
 
-    <section class="panel" id="p1" role="tabpanel" aria-label="Technology" hidden>
-      <div class="two two--img">
-        <img class="cover" src="assets/img/tech2.jpg" alt="Fluids conversion technology" />
-        <div>
-          <span class="lbl">02 / Business Vertical</span>
-          <h2>Technology</h2>
-          <p class="lead">Unique and innovative fluids conversion through GENETT technology.</p>
-          <p class="body-t" style="margin-bottom:22px">GENETT technology enables the following unique and innovative fluid-conversion opportunities:</p>
-          <div class="rows">
-            <div class="row"><span class="i">01</span>Direct conversion of natural and petroleum gases into automotive fuel</div>
-            <div class="row"><span class="i">02</span>Processing of various hydrocarbon and non-hydrocarbon raw materials</div>
-            <div class="row"><span class="i">03</span>Synthesis of hydrocarbons within a technical system, as occurs in the Earth's interior</div>
-            <div class="row"><span class="i">04</span>Processing CO₂ extracted from fuel-combustion gases into alternative fuels</div>
-            <div class="row"><span class="i">05</span>Processing organic oxygen-containing raw materials — vegetable oils, UCO, alcohols — into automotive fuels</div>
-          </div>
-          <div class="partner__links"><a class="btn btn--line" href="partnership.html">Technology partner: Dereroy &amp; Co. →</a></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="panel" id="p2" role="tabpanel" aria-label="Sport and Infrastructure" hidden>
+    <section class="panel" id="p2" role="tabpanel" aria-label="Retail and Consumer Brands" hidden>
       <div class="two">
         <div>
           <span class="lbl">03 / Business Vertical</span>
-          <h2>Sport &amp; Infrastructure</h2>
-          <p class="lead">Together with our business partners, Wickr Group a.s. focuses primarily on the reconstruction of main pitches at football stadiums and the implementation of comprehensive snowmaking systems for ski resorts, since 2016.</p>
-          <p class="body-t">Our partners are typically producers and suppliers of sport-facility equipment. Together we ensure successful project implementation and provide additional added-value services.</p>
-          <div class="partners-row"><span>Tarkett Sports</span><span>HELLASOD</span><span>SUPERSNOW SA</span></div>
-          <div class="partner__links"><a class="btn btn--line" href="references.html">International projects →</a></div>
-        </div>
-        <img class="cover" src="assets/img/p2.jpg" alt="Snowmaking system installation" />
-      </div>
-
-      <div class="tight" style="margin-top:62px">
-        <div class="pane-clay">
-          <span class="lbl">03.1 / Stadium pitches</span>
-          <h3>Reconstruction of main pitches</h3>
-          <p class="body-t">Delivered as a consortium with HELLASOD SA and Tarkett Sports B.V., largely financed from UEFA funds together with football-federation, club and local-community contributions.</p>
-        </div>
-        <div class="pane-clay">
-          <span class="lbl">03.2 / Snowmaking</span>
-          <h3>Comprehensive snowmaking systems</h3>
-          <p class="body-t">Design and implementation of full snowmaking systems for ski resorts, in partnership with Supersnow SA — whose equipment operates in more than 30 countries.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="panel" id="p3" role="tabpanel" aria-label="Retail and Consumer Brands" hidden>
-      <div class="two">
-        <div>
-          <span class="lbl">04 / Business Vertical</span>
           <h2>Retail &amp; Consumer Brands</h2>
           <p class="lead">Wickr Group has extensive experience in the retail and consumer sector, ranging from the operation of franchise stores for established international brands to the development of its own consumer products.</p>
           <p class="body-t">Over the years, the Group has operated retail locations representing a diverse portfolio of internationally recognised fashion, lifestyle and luxury brands.</p>
         </div>
         <div>
-          <span class="lbl" style="margin-bottom:16px">04.1 / Franchise stores operated</span>
+          <span class="lbl" style="margin-bottom:16px">03.1 / Franchise stores operated</span>
           <div class="brands">
             <span>Samsonite</span><span>Swarovski</span><span>Sergio Tacchini</span><span>Longchamp</span>
-            <span>Thomas Sabo</span><span>Napapijri</span><span>Polo Ralph Lauren</span><span>Dunhill</span><span>Armani Jeans</span>
+            <span>Thomas Sabo</span><span>Napapijri</span><span>Dunhill</span><span>Armani Jeans</span>
           </div>
         </div>
       </div>
@@ -159,11 +130,37 @@
       <div class="tight" style="grid-template-columns:420px 1fr;margin-top:62px">
         <div class="bottle"><img src="assets/img/symphony-vodka.jpg" alt="Symphony Vodka bottle" /></div>
         <div class="pane-ink" style="display:flex;flex-direction:column;justify-content:center">
-          <span class="lbl" style="color:var(--bronze)">04.2 / Owned &amp; developed brand</span>
+          <span class="lbl" style="color:var(--bronze)">03.2 / Owned &amp; developed brand</span>
           <h3>Symphony Vodka</h3>
           <p style="margin-top:24px">Symphony Vodka was created as an independently owned spirits brand, giving the Group direct experience across brand development, product positioning, production and distribution.</p>
           <p style="margin-top:14px">Together, these activities reflect Wickr Group's experience on both sides of the consumer business — representing established international brands and building brands of its own.</p>
           <div class="partners-row"><span>Distilled three times</span><span>Filtered through active charcoal</span><span>Czech Republic</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel" id="p3" role="tabpanel" aria-label="Sport and Infrastructure" hidden>
+      <div class="two">
+        <div>
+          <span class="lbl">04 / Business Vertical</span>
+          <h2>Sport &amp; Infrastructure</h2>
+          <p class="lead">Together with our business partners, Wickr Group a.s. focuses primarily on the reconstruction of main pitches at football stadiums and the implementation of comprehensive snowmaking systems for ski resorts, since 2016.</p>
+          <p class="body-t">Our partners are typically producers and suppliers of sport-facility equipment. Together we ensure successful project implementation and provide additional added-value services.</p>
+          <div class="partners-row"><span>Tarkett Sports</span><span>HELLASOD</span><span>SUPERSNOW SA</span></div>
+        </div>
+        <img class="cover" src="assets/img/p2.jpg" alt="Snowmaking system installation" />
+      </div>
+
+      <div class="tight" style="margin-top:62px">
+        <div class="pane-clay">
+          <span class="lbl">04.1 / Stadium pitches</span>
+          <h3>Reconstruction of main pitches</h3>
+          <p class="body-t">Delivered as a consortium with HELLASOD SA and Tarkett Sports B.V., largely financed from UEFA funds together with football-federation, club and local-community contributions.</p>
+        </div>
+        <div class="pane-clay">
+          <span class="lbl">04.2 / Snowmaking</span>
+          <h3>Comprehensive snowmaking systems</h3>
+          <p class="body-t">Design and implementation of full snowmaking systems for ski resorts, in partnership with Supersnow SA — whose equipment operates in more than 30 countries.</p>
         </div>
       </div>
     </section>
@@ -191,10 +188,10 @@
     <div>
       <h4>Verticals</h4>
       <ul>
-        <li><a href="index.html#real-estate">Real Estate</a></li>
         <li><a href="index.html#technology">Technology</a></li>
-        <li><a href="index.html#sport">Sport &amp; Infrastructure</a></li>
+        <li><a href="index.html#real-estate">Real Estate</a></li>
         <li><a href="index.html#retail">Retail &amp; Consumer Brands</a></li>
+        <li><a href="index.html#sport">Sport &amp; Infrastructure</a></li>
       </ul>
     </div>
     <div>
